@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.project.ListarController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TableView fx:id="tabela" layoutX="158.0" layoutY="53.0" prefHeight="243.0" prefWidth="325.0">
+               <columns>
+                  <TableColumn fx:id="colunaLogin" prefWidth="153.0" text="Login" />
+                  <TableColumn fx:id="colunaNome" prefWidth="171.0" text="Nome" />
+               </columns></TableView>
+            <Button layoutX="377.0" layoutY="309.0" mnemonicParsing="false" onAction="#voltar" text="Voltar" />
+            <Button layoutX="229.0" layoutY="309.0" mnemonicParsing="false" onAction="#initialize" text="Iniciar" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
