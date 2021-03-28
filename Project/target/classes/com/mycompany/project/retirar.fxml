@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="343.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.project.RetiradaController">
+  <children>
+    <AnchorPane prefHeight="330.0" prefWidth="449.0" VBox.vgrow="ALWAYS">
+      <children>
+            <TextField fx:id="campoLogin" layoutX="84.0" layoutY="69.0" prefHeight="26.0" prefWidth="223.0" promptText="Login" />
+            <TextField fx:id="campoSenha" layoutX="84.0" layoutY="106.0" prefHeight="26.0" prefWidth="223.0" promptText="Senha" />
+            <TextField fx:id="campoReserva" layoutX="84.0" layoutY="143.0" prefHeight="25.0" prefWidth="223.0" promptText="Quantia (Toneladas)" />
+            <Button layoutX="84.0" layoutY="182.0" mnemonicParsing="false" onAction="#efetuarPagamento" prefHeight="25.0" prefWidth="223.0" text="Efetuar pagamento" />
+            <Button layoutX="84.0" layoutY="249.0" mnemonicParsing="false" onAction="#voltar" text="Voltar" />
+            <Button layoutX="256.0" layoutY="249.0" mnemonicParsing="false" onAction="#fechar" text="Fechar" />
+            <Button layoutX="84.0" layoutY="213.0" mnemonicParsing="false" onAction="#deixarAberto" prefHeight="25.0" prefWidth="223.0" text="Deixar em aberto" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

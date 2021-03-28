@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="343.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.project.CadastrarController">
+  <children>
+    <AnchorPane prefHeight="330.0" prefWidth="449.0" VBox.vgrow="ALWAYS">
+      <children>
+            <TextField fx:id="campoLogin" layoutX="78.0" layoutY="122.0" prefHeight="26.0" prefWidth="223.0" promptText="Login" />
+            <TextField fx:id="campoNome" layoutX="78.0" layoutY="148.0" prefHeight="26.0" prefWidth="223.0" promptText="Nome" />
+            <TextField fx:id="campoSenha" layoutX="78.0" layoutY="174.0" prefHeight="26.0" prefWidth="223.0" promptText="Senha" />
+            <Button layoutX="78.0" layoutY="235.0" mnemonicParsing="false" onAction="#cadastrarUsuario" text="Cadastrar" />
+            <Button layoutX="170.0" layoutY="235.0" mnemonicParsing="false" onAction="#voltar" text="Voltar" />
+            <Button layoutX="245.0" layoutY="235.0" mnemonicParsing="false" onAction="#fechar" text="Fechar" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
